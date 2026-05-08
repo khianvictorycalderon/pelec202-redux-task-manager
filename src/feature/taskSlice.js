@@ -11,7 +11,7 @@ const taskSlice = createSlice({
         },
         // User may delete the task if it is done already
         deleteTask: (state, action) => {
-            state.splice(action.payload, 1);
+            return state.filter(task => task.id !== action.payload);
         }
     }
 });
