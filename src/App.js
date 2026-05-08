@@ -40,7 +40,7 @@ export default function App() {
   return (
     <div>
 
-      <p className="text-center">PELEC202 Finals Hands On Quiz 1</p>
+      <p className="text-center">PELEC202 Finals Hands On Quiz 3</p>
       <p className="text-center">by Khian Victory D. Calderon</p>
       <p className="text-center">BSIT - 2A</p>
 
