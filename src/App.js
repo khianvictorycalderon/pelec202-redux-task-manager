@@ -20,11 +20,7 @@ export default function App() {
     }
 
     // ID generation (prevents duplicates)
-    let task_id = Math.floor(Math.random() * 91049102853);
-
-    while (tasks.some(item => item.id === task_id)) {
-       task_id = Math.floor(Math.random() * 91049102853);
-    }
+    const task_id = Date.now();
 
     // Add to redux store
     dispatch(
