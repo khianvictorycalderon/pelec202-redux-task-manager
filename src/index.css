@@ -12,3 +12,37 @@ body {
 .text-center {
   text-align: center;
 }
+
+.input-section {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  align-content: center;
+}
+
+.input-section > input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+}
+
+.input-section > button {
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  background-color: rgb(12, 12, 255);
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.input-section > button:hover {
+  background-color: rgb(76, 76, 255);
+}
+
+
+.input-section > label {
+  font-size: 1rem;
+}
